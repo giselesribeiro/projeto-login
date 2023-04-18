@@ -41,7 +41,12 @@ div#formulario{
 p,h1{
     padding: 10px;
 }
+
+p{
+    font-size: 1.2em;
+  }
 }
+
 
 @media screen and (min-width:992px) {
 
@@ -66,5 +71,9 @@ p,h1{
 
   p,h1{
     padding: 10px;
+  }
+
+  p{
+    font-size: 1.2em;
   }
 }
