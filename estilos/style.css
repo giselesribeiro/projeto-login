@@ -65,3 +65,77 @@ main{
     
 }
 
+form > div.campo{
+    text-align: center;
+   
+}
+
+form > div.campo > span{
+    font-size: 2em;
+    color: #592316;
+    
+   
+}
+div.campo > input{
+    padding:10px;
+    border-radius: 10px ;
+    border: 2px solid var(--cor02);
+    
+    
+    
+    
+}
+
+form > input#entrar{
+    display: block;
+    font-size: 1em;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: var(--cor02);
+    color: #F2E9E4;
+    
+     
+    border-radius: 8px;
+    border-style: solid ;
+    border-color: #592316;
+    box-shadow:none ;
+}   
+
+form > input#entrar:hover{
+    background-color: #96583431;
+    transition: 0.5s;
+    color: #592316;
+
+}
+
+form > a#botao{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 3px;
+
+    display: block;
+    font-size: 1em;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: var(--cor03);
+    color: #F2E9E4;
+
+    border-radius: 8px;
+    border-style: solid ;
+    border-color: #8C5230;
+    box-shadow:none ;
+}
+
+form > a#botao > span{
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+form > a#botao:hover{
+    background-color: #96583431;
+    transition: 0.5s;
+    color: #592316;
+}
